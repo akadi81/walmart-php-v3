@@ -1,0 +1,24 @@
+<InventoryFeed xmlns="http://walmart.com/">
+  <InventoryHeader>
+      <version>1.4</version>
+  </InventoryHeader>
+
+<inventory>
+      <sku>SKU006604</sku>
+      <quantity>
+          <unit>EACH</unit>
+          <amount>13</amount>
+      </quantity>
+      <fulfillmentLagTime>1</fulfillmentLagTime>
+  </inventory>
+  
+  <inventory>
+      <sku>other_sku</sku>
+      <quantity>
+          <unit>EACH</unit>
+          <amount>135</amount>
+      </quantity>
+      <fulfillmentLagTime>1</fulfillmentLagTime>
+  </inventory>
+
+</InventoryFeed>
