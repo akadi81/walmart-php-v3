@@ -99,7 +99,7 @@ $xml_stock = $x->getInventory($sku);
 var_dump($xml_stock);
 
 //post inventory xml file for update
-$xml_file = "inventory.xml";
-var_dump($xml_file);
+$xml_post_result = $x->postInventory("inventory.xml");
+var_dump($xml_post_result);
 
 ?>
